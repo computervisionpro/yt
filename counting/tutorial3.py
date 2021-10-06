@@ -23,3 +23,4 @@ plt.imshow(rgb)
 
 
 print('Coins in the image: ', len(cnt))
+plt.show()
