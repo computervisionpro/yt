@@ -4,7 +4,9 @@ import numpy as np
 import tensorflow as tf
 
 mean = np.array([123.68, 116.779, 103.939], dtype="float32") # image net rgb mean
-
+#----
+###### TO DOWNLOAD THE TFLITE MODEL I USED (95 MB): https://drive.google.com/file/d/1HVZAp7QSxF_5gSLR5zRKOP54q4mg1rU7/view 
+#----
 interpreter = tf.lite.Interpreter(model_path="activity-lite.tflite")
 interpreter.allocate_tensors()
 
