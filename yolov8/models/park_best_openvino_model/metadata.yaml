@@ -1,0 +1,13 @@
+description: Ultralytics park_best model trained on data.yaml
+author: Ultralytics
+license: AGPL-3.0 https://ultralytics.com/license
+version: 8.0.131
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 320
+- 320
+names:
+  0: space-empty
+  1: space-occupied
