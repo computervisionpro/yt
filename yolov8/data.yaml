@@ -1,0 +1,14 @@
+path: ../park_count/datasets/
+
+train: train/images
+val: valid/images
+
+nc: 2
+names: ['space-empty', 'space-occupied']
+
+#roboflow:
+#  workspace: brad-dwyer
+#  project: pklot-1tros
+#  version: 2
+#  license: CC BY 4.0
+#  url: https://universe.roboflow.com/brad-dwyer/pklot-1tros/dataset/2
